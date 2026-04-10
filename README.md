@@ -27,73 +27,68 @@
 }
 ```
 
-I build **frontend-first products** that actually reach users.
+I build **frontend-first products** — ones that reach real users, solve real problems, and hold up over time.
 
-My work lives in the React ecosystem — clean component architecture, thoughtful UX flows, and interfaces that get out of the user's way. I reach for **Supabase** when I need auth, databases, and APIs because it lets me move at product speed without overstating my backend knowledge.
+My core is React. I think in components, design in flows, and ship in iterations. I use **Supabase** for auth, databases, and APIs — not because it's trendy, but because it lets me close the gap between idea and product without pretending to be something I'm not.
 
-I'm not a full-stack engineer in the traditional sense. I'm a builder who knows *exactly* which tools collapse the distance between idea and deployed product — and I'm honest about where my expertise starts and ends.
+I study Computer Science formally. That means I read about algorithms in the morning and apply them to interfaces at night. The theory feeds the product work, and the product work gives the theory purpose.
 
 > *"Good UI engineering is just as much about judgment as it is about code."*
 
 ---
 
-## 🧠 Currently Focusing On
+## 🧭 My Approach
 
-```
-▸ Strengthening DSA & algorithmic thinking — not for interviews, for better code
-▸ Designing systems that scale — not just screens that look good
-▸ Building maintainable, composable React architectures
-▸ Learning how product decisions shape technical ones
-▸ Getting faster: idea → scoped → shipped → iterated
-```
+Most developers jump to code. I start with a question: **what does this user actually need to do?**
 
----
+That question drives everything — the component structure, the data model, the UX flow. A feature that works but can't be understood isn't done. A design that looks good but breaks at 375px isn't good.
 
-## 🚀 Featured Project
+Here's how I think through a build:
 
-### [Viewly](https://github.com/uvic19/Viewly)
-> A full-stack streaming interface — built with React + Supabase
+**Before opening a code editor:**
+- Define the user's job-to-be-done in one sentence
+- Sketch the simplest interface that accomplishes it
+- Identify what will change in 3 months and design for that now
 
-Viewly is a real product I designed and built end to end. It's not a tutorial clone — it has real features, real design decisions, and real users.
+**While building:**
+- Components do one thing — no god components, no prop hell
+- State lives as close to where it's needed as possible
+- Design tokens first, ad-hoc values never
+- Every interaction state is accounted for — hover, disabled, loading, empty, error
 
-**What went into it:**
-- 🎨 Custom dark UI system with a flat, modern aesthetic
-- 🔐 Supabase Auth — email/password + session handling
-- 🗄️ Supabase Database — lists, watchlists, user data
-- 🎬 TMDB API integration for movies & TV shows
-- 📱 Fully responsive across mobile and desktop
-- ⚡ Deployed on Vercel — live, fast, real
+**Before shipping:**
+- Does it work on mobile without a second thought?
+- Is the code readable to someone who didn't write it?
+- Can the next feature be added without rewriting this one?
 
-Viewly is where I practice what I preach: clean components, real data, real UX decisions.
+This is why I care about architecture — not as an academic exercise, but because I've felt the cost of ignoring it.
 
 ---
 
-## 🧩 How I Think About Building
+## 📐 Engineering Principles
 
-**I don't start with code. I start with the user.**
+These aren't aspirational. They're the things I actually apply every day:
 
-Before touching a component, I ask:
-- What does this person actually need to do?
-- What's the simplest thing that solves that well?
-- What will this look like in 3 months when I have to change it?
-
-This is why I care about **component architecture** — not just making things work, but making them maintainable. A feature that works but can't be extended is a liability.
-
-**On tooling:**
-I pick tools based on what the problem needs, not what's trending. Supabase lets me move fast on auth and data without building an entire backend. Tailwind lets me implement designs without context-switching into CSS files. React Router + React Query handle 90% of real frontend complexity cleanly.
-
-**On design:**
-I can hold my own in Figma. I care about negative space, type hierarchy, and interaction states — not just whether something renders. This makes my work look intentional, not assembled.
+```
+01  Clarity over cleverness — a readable function beats an impressive one
+02  Ship, then improve — working beats perfect, shipping beats planning
+03  Components should do one thing and do it well
+04  Design is part of the job, not someone else's problem
+05  Understand the tool before reaching for it
+06  Be honest about what you know — and aggressive about learning what you don't
+```
 
 ---
 
 ## 🛠️ Tech Stack
 
+> **Honest note:** This is what I actually use, not a list padded for impressions.
+
 <table>
   <tr>
     <td valign="top" width="33%">
 
-**Frontend**
+**Frontend Layer**
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=flat-square&logo=javascript&logoColor=F7DF1E)
@@ -110,7 +105,7 @@ I can hold my own in Figma. I care about negative space, type hierarchy, and int
   </td>
   <td valign="top" width="33%">
 
-**Backend & Infra**
+**Backend & Infrastructure**
 
 ![Supabase](https://img.shields.io/badge/Supabase-1c1c1c?style=flat-square&logo=supabase&logoColor=3ECF8E)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
@@ -136,30 +131,42 @@ I can hold my own in Figma. I care about negative space, type hierarchy, and int
 
 ---
 
-## 📐 My Engineering Principles
+## 🚀 Featured Work
 
-```
-01. Clarity over cleverness — readable code beats impressive code
-02. Ship, then improve — a working product beats a perfect prototype
-03. Components should do one thing and do it well
-04. Design is part of the job, not someone else's problem
-05. Understand the tool before reaching for it
-06. Honest about what I know, learning what I don't
-```
+### Viewly — Streaming Interface
+
+A full-stack streaming platform built with React and Supabase. Not a tutorial clone. A real product with a real design system, real auth, and real users.
+
+**What it demonstrates:**
+
+| Area | What I built |
+|---|---|
+| **UI System** | Custom dark theme — flat, minimal, intentional |
+| **Auth** | Supabase Auth — email/password, session management |
+| **Data** | Supabase DB — watchlists, user data, room state |
+| **API** | TMDB integration — movies, TV shows, search |
+| **UX** | Keyboard-accessible, mobile-first, interaction-complete |
+| **Infra** | Deployed on Vercel — live, fast, zero configuration fluff |
+
+> Viewly is where I practice what I preach. Every decision in it — structural, visual, technical — reflects a deliberate tradeoff I made and can explain.
 
 ---
 
-## 📚 Learning Journey
+## 📚 Learning in Context
 
-I study **Computer Science** formally alongside building real products. This puts me in an interesting position — I can read theory in the morning and apply it to code at night.
+I'm a Computer Science student building real products alongside formal coursework. What that combination gives me is unusual — I can reason about both *why something works* and *what it looks like in production*.
 
-**What formal CS gives me:**
-- `Algorithms & DSA` — learning to reason about efficiency, not just "does it work"
-- `Computer Networks` — understanding what actually happens when an API call fires
-- `Operating Systems` — low-level context that makes me a better systems thinker
-- `Cryptography` — understanding security at a layer most front-end devs skip
+**How each CS module feeds my product work:**
 
-I don't treat academic CS and product building as separate tracks. They feed each other.
+| Course | What it changes about how I code |
+|---|---|
+| **Algorithms & DSA** | I think about cost, not just correctness |
+| **Computer Networks** | I understand what actually happens when an API fires |
+| **Operating Systems** | Low-level context that makes me a better systems thinker |
+| **Cryptography** | I understand security at a layer most front-end developers skip |
+| **Database Systems** | I write queries that don't surprise me at scale |
+
+I don't treat academic CS and product building as separate tracks. They're the same track, approached from different angles.
 
 ---
 
@@ -188,25 +195,30 @@ I don't treat academic CS and product building as separate tracks. They feed eac
 
 ## 🤝 Open To
 
-I'm interested in collaborating on projects where:
+I'm looking for projects where the frontend is treated as a first-class concern — not a layer that gets bolted on after the backend is done.
 
-- The **frontend is a first-class concern**, not an afterthought
-- The stack is **React + BaaS**, or something equally pragmatic
-- There's a **real user** with a real problem being solved — not just a portfolio piece
-- Decisions are made with **intention**, not because that's what everyone else uses
-- The conversation can go **below the surface level**
+**Specifically:**
 
-I'm not chasing freelance gigs or grinding contracting work. I'm looking for projects worth showing up for — where the product actually matters.
+- React-heavy projects with a real product scope and real users
+- Full-stack work where the BaaS layer (Supabase, Firebase, similar) handles infrastructure
+- Collaborators who make technical decisions with intention, not with convention
+- Conversations that go past "I'm passionate about clean code" into actual tradeoffs and constraints
 
-If that sounds like your project, reach out.
+**What I'm not looking for:**
+
+- Tutorial projects dressed up as products
+- Stacks chosen for resume reasons
+- Teams that treat UI as decoration
+
+If your project fits the first list — reach out.
 
 ---
 
-## 💬 On Work Style
+## 💬 How I Work
 
-I prefer async communication and documenting decisions. I write concise commit messages and keep PRs focused. I'll tell you when something feels wrong architecturally — not to be difficult, but because catching it early is cheaper than fixing it later.
+I prefer async communication with clear written decisions. I write focused commits with meaningful messages. I'll flag architectural concerns early — not to block, but because the cost of catching them late is always higher.
 
-I work best when there's a clear problem and the freedom to approach it well.
+I work best when the problem is real, the scope is honest, and there's room to approach it well.
 
 ---
 
